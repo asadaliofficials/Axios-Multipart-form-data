@@ -1,0 +1,93 @@
+/* Dark theme background */
+.app {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #111;
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+/* Card container */
+.card {
+	background: #222;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+	width: 100%;
+	max-width: 500px;
+	text-align: center;
+}
+
+/* Heading */
+.card h1 {
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+/* Image preview */
+.preview {
+	margin-bottom: 15px;
+}
+.preview img {
+	max-height: 200px;
+	border-radius: 10px;
+	border: 1px solid #444;
+	object-fit: contain;
+}
+
+/* Buttons */
+.btn {
+	padding: 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 8px;
+	font-size: 14px;
+	cursor: pointer;
+	transition: background 0.3s;
+}
+.select-btn {
+	background: #444;
+	color: #fff;
+  margin-right: 2rem;
+}
+.select-btn:hover {
+	background: #555;
+}
+.upload-btn {
+	background: #0066ff;
+	color: #fff;
+}
+.upload-btn:hover {
+	background: #3385ff;
+}
+.upload-btn:disabled {
+	background: #333;
+	cursor: not-allowed;
+}
+
+/* Progress bar */
+.progress-box {
+	margin-top: 20px;
+}
+progress {
+	width: 100%;
+	height: 12px;
+	border-radius: 6px;
+	overflow: hidden;
+	appearance: none;
+}
+progress::-webkit-progress-bar {
+	background-color: #333;
+	border-radius: 6px;
+}
+progress::-webkit-progress-value {
+	background-color: #0066ff;
+	border-radius: 6px;
+}
+progress::-moz-progress-bar {
+	background-color: #0066ff;
+	border-radius: 6px;
+}
